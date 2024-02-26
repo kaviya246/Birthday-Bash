@@ -1,0 +1,60 @@
+/* src/components/Registration.css */
+.bgm{
+  background-image: url("G:\semsix\birthday-front\src\assets\images\p4.jpg");
+  background-size: 45%;
+  background-repeat: no-repeat;
+ background-color: rgb(215,202,196);
+ height: 100vh;
+ width: 100vw;
+}
+.registration-container {
+    max-width: 300px;
+    padding: 50px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #b5928b;
+    opacity: 0.8;
+    margin-left: 50%;
+    margin-top: 3%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #604a45;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #664f49;
+  }
+  .Card {
+    border: 1px solid #ddd; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(200, 151, 151, 0.1);
+    background-color: #d7d0cf;
+    opacity: 0.8;
+    height :auto;
+  }
+  h2{
+    text-align: center;
+    margin-top:2%;
+  }

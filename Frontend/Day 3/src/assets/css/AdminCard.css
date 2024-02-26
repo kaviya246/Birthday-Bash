@@ -1,0 +1,40 @@
+.cardaa {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    background-image:linear-gradient(180deg, rgb(93, 61, 61), rgb(224, 224, 223)) ;
+    margin-top: 100%;
+    /* display: flex; 
+    justify-content: space-around;  */
+  /* border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, rgb(93, 61, 61), rgb(224, 224, 223)); */
+  }
+  
+  .icon-container { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .item-grid
+  {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 10%;
+  }
